@@ -21,7 +21,7 @@ The focus We use is likely to be the list of SDP reports. I have listed them her
  Use the URL Below. Put into a powershell window and the files will download into the Downloads Folder. They will unzip and TSSv2Cluster will begin. You will 
  see the menu in the above screen shot.  
 ```Powershell
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;Invoke-Expression('$module="TSSv2Cluster";$repo="PowershellScripts"'+(new-object System.net.webclient).DownloadString('https://raw.githubusercontent.com/Louisjreeves/TSSv2Cluster/main/TSSv2.ps1')); Invoke-TSSv2Cluster
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;Invoke-Expression('$module="TSSv2Cluster";$repo="PowershellScripts"'+(new-object System.net.webclient).DownloadString('https://raw.githubusercontent.com/Louisjreeves/TSSv2Cluster/main/RunTSSv2.ps1')); Invoke-TSSv2Cluster
 ```
 
 For the moment, this script runs the following. I may add to this later on. 
