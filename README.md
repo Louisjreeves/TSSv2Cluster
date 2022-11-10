@@ -23,3 +23,7 @@ The focus We use is likely to be the list of SDP reports. I have listed them her
 ```Powershell
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;Invoke-Expression('$module="TSSv2Cluster";$repo="PowershellScripts"'+(new-object System.net.webclient).DownloadString('https://raw.githubusercontent.com/Louisjreeves/TSSv2Cluster/main/TSSv2.ps1')); Invoke-TSSv2Cluster
 ```
+
+For the moment, this script runs the following. I may add to this later on. 
+
+.\Tssv2.ps1 -sdp Hyperv,Cluster -skipSDPlist skiphang,skipbpa -nopsr -accepteula
