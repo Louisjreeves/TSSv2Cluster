@@ -8,7 +8,7 @@ Automation tool for MS NEtworking
 
 This is a simple tool that just uses the one of many many things this microsoft tool can do. 
 
-![tssv2 tool](https://learn.microsoft.com/en-us/troubleshoot/windows-client/windows-troubleshooters/introduction-to-troubleshootingscript-toolset-tssv2)
+https://learn.microsoft.com/en-us/troubleshoot/windows-client/windows-troubleshooters/introduction-to-troubleshootingscript-toolset-tssv2
 
 
 The focus We use is likely to be the list of SDP reports. I have listed them here for my team mates. 
